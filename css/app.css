@@ -62,6 +62,34 @@ section.banner a {
 section.banner a:hover {
   background-color: #ECB10D;
 }
+section.feature {
+  padding: 60px 0;
+}
+section.feature figure {
+  text-align: center;
+}
+section.feature figure img {
+  height: 45%;
+}
+section.feature figure figcaption {
+  color: #40444D;
+}
+section.feature figure figcaption h4 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+section.feature figure figcaption p {
+  font-size: 15px;
+}
+section.feature a {
+  border: 2px solid #FFB900;
+  color: #857241;
+  box-shadow: 0px 0px 5px 0px #d4d1c9;
+  font-size: 16px;
+  padding: 18px 60px;
+  font-weight: bold;
+}
 
 /* Tablet layout */
 
@@ -103,5 +131,9 @@ section.banner a:hover {
   }
   section.banner a {
     padding: 20px 20px;
+  }
+  section.feature figure figcaption {
+    width: 80%;
+    margin: auto;
   }
 }
