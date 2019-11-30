@@ -2,6 +2,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 header {
   background-color: #DDDDDD;
 }
@@ -21,7 +25,6 @@ header nav ul li {
 header nav ul li a {
   color: #545660;
   font-size: 16px;
-  text-decoration: none;
 }
 header nav ul li a:hover {
   color: #26272B;
@@ -51,7 +54,6 @@ section.banner p {
 section.banner a {
   background-color: #FFB900;
   box-shadow: 2px 2px 5px 0px #d4d1c9;
-  text-decoration: none;
   color: #533C00;
   font-weight: bold;
   font-size: 22px;
