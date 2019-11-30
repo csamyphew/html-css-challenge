@@ -2,46 +2,64 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
 header {
   background-color: #DDDDDD;
 }
-
 header figure {
   margin-left: 0;
   color: #2F333E;
   font-size: 24px;
   letter-spacing: 0.5px;
 }
-
 header figure img {
   margin-right: 12px;
 }
-
 header nav ul li {
   display: inline-block;
   margin: 0 30px;
 }
-
 header nav ul li a {
   color: #545660;
   font-size: 16px;
   text-decoration: none;
 }
-
 header nav ul li a:hover {
   color: #26272B;
 }
-
 header nav ul li:last-child a {
   color: #E7B825;
   font-weight: bold;
 }
-
 header nav ul li:last-child a:hover {
   color: #D8A611;
 }
-
+section.banner {
+  background-color: #F5F6F5;
+  padding: 60px 0;
+  box-shadow: 0px 2px 5px 0px #dad8d4;
+}
+section.banner h1 {
+  color: #2F333E;
+  font-size: 50px;
+  line-height: 1.2;
+}
+section.banner p {
+  color: #565962;
+  font-size: 24px;
+  line-height: 1.5;
+}
+section.banner a {
+  background-color: #FFB900;
+  box-shadow: 2px 2px 5px 0px #d4d1c9;
+  text-decoration: none;
+  color: #533C00;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 20px 30px;
+}
+section.banner a:hover {
+  background-color: #ECB10D;
+}
 
 /* Tablet layout */
 
@@ -49,8 +67,19 @@ header nav ul li:last-child a:hover {
   header nav ul li {
     margin: 0 15px;
   }
+  section.banner h1 {
+    font-size: 38px;
+  }
+  section.banner p {
+    font-size: 20px;
+  }
+  section.banner p br {
+    display: none;
+  }
+  section.banner a {
+    font-size: 18px;
+  }
 }
-
 
 /* Mobile layout */
 
@@ -63,5 +92,14 @@ header nav ul li:last-child a:hover {
   }
   header img {
     width: 40px;
+  }
+  section.banner {
+    text-align: center;
+  }
+  section.banner h1 {
+    font-size: 34px;
+  }
+  section.banner a {
+    padding: 20px 20px;
   }
 }
