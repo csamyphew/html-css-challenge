@@ -18,6 +18,42 @@ header figure img {
   margin-right: 12px;
 }
 
+header nav ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+header nav ul li a {
+  color: #545660;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #26272B;
+}
+
+header nav ul li:last-child a {
+  color: #E7B825;
+  font-weight: bold;
+}
+
+header nav ul li:last-child a:hover {
+  color: #D8A611;
+}
+
+
+/* Tablet layout */
+
+@media screen and (max-width: 991px) {
+  header nav ul li {
+    margin: 0 15px;
+  }
+}
+
+
+/* Mobile layout */
+
 @media screen and (max-width: 768px) {
   header figure {
     font-size: 18px;
